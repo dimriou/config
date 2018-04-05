@@ -42,4 +42,5 @@ set tm=500
 
 nnoremap ; :
 nnoremap : ;
+map  ` <Nop>
 imap ` <Esc>
