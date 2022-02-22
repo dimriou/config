@@ -1,18 +1,3 @@
-" <Vundle>
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-let g:ycm_confirm_extra_conf = 0
-let g:ycm_server_python_interpreter = '/usr/bin/python'
-set completeopt-=preview
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'tomlion/vim-solidity'
-call vundle#end()
-filetype plugin indent on
-" </Vundle>
-
 set backspace=2
 filetype plugin on
 syntax on
@@ -39,8 +24,3 @@ set number
 set noerrorbells novisualbell
 set t_vb=
 set tm=500
-
-nnoremap ; :
-nnoremap : ;
-map  ` <Nop>
-imap ` <Esc>
